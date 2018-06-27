@@ -1,0 +1,232 @@
+/* = !GRID/COLUMN SYSTEM
+---------------------------------------------------------------- */
+@media (min-width: 569px) {
+  .specilaity .xs-1,
+  .specilaity .xs-2,
+  .specilaity .xs-3,
+  .specilaity .xs-4,
+  .specilaity .xs-5,
+  .specilaity .xs-6,
+  .specilaity .xs-7,
+  .specilaity .xs-8,
+  .specilaity .xs-9,
+  .specilaity .xs-10,
+  .specilaity .xs-11,
+  .specilaity .xs-12 {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .specilaity .xs-1 {
+    width: 8.33333%;
+  }
+  .specilaity .xs-2 {
+    width: 16.66667%;
+  }
+  .specilaity .xs-3 {
+    width: 25%;
+  }
+  .specilaity .xs-4 {
+    width: 33.33333%;
+  }
+  .specilaity .xs-5 {
+    width: 41.66667%;
+  }
+  .specilaity .xs-6 {
+    width: 50%;
+  }
+  .specilaity .xs-7 {
+    width: 58.33333%;
+  }
+  .specilaity .xs-8 {
+    width: 66.66667%;
+  }
+  .specilaity .xs-9 {
+    width: 75%;
+  }
+  .specilaity .xs-10 {
+    width: 83.33333%;
+  }
+  .specilaity .xs-11 {
+    width: 91.66667%;
+  }
+  .specilaity .xs-12 {
+    width: 100%;
+  }
+}
+@media (min-width: 769px) {
+  .specilaity .container,
+  .specilaity .container-fluid {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .specilaity .row {
+    margin-left: -24px;
+    margin-right: -24px;
+  }
+  .specilaity .sm-1,
+  .specilaity .sm-2,
+  .specilaity .sm-3,
+  .specilaity .sm-4,
+  .specilaity .sm-5,
+  .specilaity .sm-6,
+  .specilaity .sm-7,
+  .specilaity .sm-8,
+  .specilaity .sm-9,
+  .specilaity .sm-10,
+  .specilaity .sm-11,
+  .specilaity .sm-12 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .specilaity .sm-1 {
+    width: 8.33333%;
+  }
+  .specilaity .sm-2 {
+    width: 16.66667%;
+  }
+  .specilaity .sm-3 {
+    width: 25%;
+  }
+  .specilaity .sm-4 {
+    width: 33.33333%;
+  }
+  .specilaity .sm-5 {
+    width: 41.66667%;
+  }
+  .specilaity .sm-6 {
+    width: 50%;
+  }
+  .specilaity .sm-7 {
+    width: 58.33333%;
+  }
+  .specilaity .sm-8 {
+    width: 66.66667%;
+  }
+  .specilaity .sm-9 {
+    width: 75%;
+  }
+  .specilaity .sm-10 {
+    width: 83.33333%;
+  }
+  .specilaity .sm-11 {
+    width: 91.66667%;
+  }
+  .specilaity .sm-12 {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .specilaity .md-1,
+  .specilaity .md-2,
+  .specilaity .md-3,
+  .specilaity .md-4,
+  .specilaity .md-5,
+  .specilaity .md-6,
+  .specilaity .md-7,
+  .specilaity .md-8,
+  .specilaity .md-9,
+  .specilaity .md-10,
+  .specilaity .md-11,
+  .specilaity .md-12 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .specilaity .md-1 {
+    width: 8.33333%;
+  }
+  .specilaity .md-2 {
+    width: 16.66667%;
+  }
+  .specilaity .md-3 {
+    width: 25%;
+  }
+  .specilaity .md-4 {
+    width: 33.33333%;
+  }
+  .specilaity .md-5 {
+    width: 41.66667%;
+  }
+  .specilaity .md-6 {
+    width: 50%;
+  }
+  .specilaity .md-7 {
+    width: 58.33333%;
+  }
+  .specilaity .md-8 {
+    width: 66.66667%;
+  }
+  .specilaity .md-9 {
+    width: 75%;
+  }
+  .specilaity .md-10 {
+    width: 83.33333%;
+  }
+  .specilaity .md-11 {
+    width: 91.66667%;
+  }
+  .specilaity .md-12 {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .specilaity .container,
+  .specilaity .container-fluid {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .specilaity .row {
+    margin-left: -32px;
+    margin-right: -32px;
+  }
+  .specilaity .lg-1,
+  .specilaity .lg-2,
+  .specilaity .lg-3,
+  .specilaity .lg-4,
+  .specilaity .lg-5,
+  .specilaity .lg-6,
+  .specilaity .lg-7,
+  .specilaity .lg-8,
+  .specilaity .lg-9,
+  .specilaity .lg-10,
+  .specilaity .lg-11,
+  .specilaity .lg-12 {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .specilaity .lg-1 {
+    width: 8.33333%;
+  }
+  .specilaity .lg-2 {
+    width: 16.66667%;
+  }
+  .specilaity .lg-3 {
+    width: 25%;
+  }
+  .specilaity .lg-4 {
+    width: 33.33333%;
+  }
+  .specilaity .lg-5 {
+    width: 41.66667%;
+  }
+  .specilaity .lg-6 {
+    width: 50%;
+  }
+  .specilaity .lg-7 {
+    width: 58.33333%;
+  }
+  .specilaity .lg-8 {
+    width: 66.66667%;
+  }
+  .specilaity .lg-9 {
+    width: 75%;
+  }
+  .specilaity .lg-10 {
+    width: 83.33333%;
+  }
+  .specilaity .lg-11 {
+    width: 91.66667%;
+  }
+  .specilaity .lg-12 {
+    width: 100%;
+  }
+}
