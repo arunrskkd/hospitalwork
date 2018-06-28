@@ -35,7 +35,7 @@ $(function() {
                 },
                 {
                     breakpoint: 568,
-                    column: 2
+                    column: 1
                 },
                 {
                     breakpoint: 768,

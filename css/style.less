@@ -15,6 +15,10 @@
     font-family:Montserrat-Italic;
     src:url('../fonts/Montserrat-Italic.ttf') format('truetype');
 }
+@font-face{
+    font-family:Montserrat-Medium;
+    src:url('../fonts/Montserrat-Medium.ttf') format('truetype');
+}
 @media(min-width:1400px){
     .container{
         max-width:1200px;
@@ -26,6 +30,9 @@
 .contsigmaone{
     h1,h2,h3,h4,h5,h6,p{
         margin: 0;
+    }
+    a{
+        text-decoration: none !important;
     }
     img{
         width: 100%;
@@ -66,6 +73,14 @@
             @media(max-width:576px){
                 background: #ecfbff;
              } 
+             .spone{
+                 display: block;
+                 text-align: center;
+                 font-size: 17px;
+                 color: #000;
+                 font-family:Montserrat-Medium;
+                 margin-top: 10px;
+             }
         }
        .imglogosect{
         width: 119px;
@@ -297,6 +312,7 @@ box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.75);
             width: 251px;
             margin: 25px auto;
             transition: .5s;
+            border: 1px solid #d9d9dc61;
             &:hover{
                 -webkit-box-shadow: -8px 13px 34px -5px rgba(0,0,0,0.37);
                 -moz-box-shadow: -8px 13px 34px -5px rgba(0,0,0,0.37);
@@ -376,6 +392,7 @@ box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.75);
             align-items: center;
             justify-content: center;
             margin: 32px 0;
+            padding: 0;
         }
     }
     .testimonialssection{
@@ -632,6 +649,7 @@ box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.75);
             padding: 20px 0;
             font-family:Montserrat-Bold;
             margin: 0;
+            text-decoration: none !important;
             @media(min-width:991px){
                 font-size: 2vw;
             }
@@ -651,7 +669,10 @@ box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.75);
                 margin-right: 19px;
                 margin-top: -10px;
                 img{
-                    width: 100%;
+                    width: 94%;
+                    @media(max-width:768px){
+                        width: 73%;
+                    }
                 }
             }
             .texside{
@@ -667,15 +688,23 @@ box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.75);
                     font-size: 15px;
                     color: #000;
                     font-family:Montserrat-Regular;
+                    @media(max-width:576px){
+                        display: none;
+                        padding: 10px 0;
+                    }
                 }
           
             }
         }
     }
     .mg-row{
+        width: 100%;
         @media(max-width:991px){
             margin-bottom: 0;
         }
+    }
+    .mg-space-multiple{
+        width: 100%;
     }
     
   

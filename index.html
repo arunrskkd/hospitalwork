@@ -44,6 +44,7 @@
                         Medical Specialists</p>
                     
                         <button class="btnone mobmiddl doopen">Request Consultation</button>
+                        <span class="spone d-lg-none">OR</span>
                 </div>
               </div>
          
@@ -149,7 +150,8 @@
                             <div class="col-lg-6">
                                   <div class="setinside">
                                       <div class="bagimg">
-                                        <img src="./images/bagimg.png">
+                                        <img src="./images/bagimg.png" class="d-none d-lg-block">
+                                        <img src="./images/bagimg_small.png" class="d-lg-none">
                                       </div>
                                       <div class="texside">
                                         <h4>Irritable Bowel Syndrome</h4>
@@ -160,7 +162,8 @@
                             <div class="col-lg-6">
                                 <div class="setinside">
                                     <div class="bagimg">
-                                      <img src="./images/bagimg.png">
+                                      <img src="./images/bagimg.png" class="d-none d-lg-block">
+                                      <img src="./images/bagimg_small.png" class="d-lg-none">
                                     </div>
                                     <div class="texside">
                                       <h4>Inflamatory Bowel Syndrome</h4>
@@ -171,7 +174,8 @@
                           <div class="col-lg-6">
                               <div class="setinside">
                                   <div class="bagimg">
-                                    <img src="./images/bagimg.png">
+                                    <img src="./images/bagimg.png" class="d-none d-lg-block">
+                                    <img src="./images/bagimg_small.png" class="d-lg-none">
                                   </div>
                                   <div class="texside">
                                     <h4>Pancreatic Disorders</h4>
@@ -182,7 +186,8 @@
                         <div class="col-lg-6">
                             <div class="setinside">
                                 <div class="bagimg">
-                                  <img src="./images/bagimg.png">
+                                  <img src="./images/bagimg.png" class="d-none d-lg-block">
+                                  <img src="./images/bagimg_small.png" class="d-lg-none">
                                 </div>
                                 <div class="texside">
                                   <h4>Gastritis</h4>
@@ -480,7 +485,7 @@
     </div>
     </div>
 
-    <footer class="gastrofooter">
+    <footer class="gastrofooter" id="footer">
       <h4>©SIGMA Gastrocare
         </h4>
     </footer>
@@ -507,13 +512,13 @@
                     <div class="row">
                         <div class="col-12">
                           <label for="">Email*</label>
-                          <input type="text" class="form-control">
+                          <input type="email" class="form-control">
                         </div>
                       </div>
                       <div class="row">
                           <div class="col-12">
                             <label for="">Phone*</label>
-                            <input type="text" class="form-control">
+                            <input type="number" class="form-control cphone">
                           </div>
                         </div>
                         <div class="row">
@@ -682,21 +687,6 @@
     // expand effect section
   $(document).ready(function(){
 
- 
-    $(".secteffone").click(function(){
-      $(this).find(".arrowup").removeClass('d-none');
-      $(this).siblings().find(".arrowup").addClass('d-none');
-      let item = $(this).attr("expsect");
-      $("."+item).addClass("open");
-      $("."+item).siblings().removeClass("open");
-      
-    });
-    $(".expandclose").on('click',function(){
-      
-      $(this).parents('.sectexpandsect').removeClass("open");
-      $(".arrowup ").addClass('d-none');
-    });
-
 
     // enquire form pop close open fuction
     $(".doopen").click(function(){
@@ -724,23 +714,19 @@
 
         });
 
-        //  if (screen.width < 1400) {
-        //     var elems = document.querySelectorAll('*');
-        //       for (var i=elems.length; i--;) {
-        //         if(elems[i].tagName == "H3" || elems[i].tagName == "H2" || elems[i].tagName == "H3" || elems[i].tagName == "H4" || elems[i].tagName == "H5" || elems[i].tagName == "P" || elems[i].tagName == "SPAN"  || elems[i].tagName == "LI") {
-        //           var f_size = getComputedStyle(elems[i]).fontSize;
-        //           var numb   = f_size.replace(/\D/g,''); // the number
-        //           var val    = f_size.replace(/\d/g,''); // px
-        //           elems[i].style.fontSize = (+numb * 8 / 10) + val;  
+         if (screen.width < 1400 && screen.width > 991) {
+            var elems = document.querySelectorAll('*');
+              for (var i=elems.length; i--;) {
+                if(elems[i].tagName == "H3" || elems[i].tagName == "H2" || elems[i].tagName == "H3" || elems[i].tagName == "H4" || elems[i].tagName == "H5" || elems[i].tagName == "P" || elems[i].tagName == "SPAN"  || elems[i].tagName == "LI") {
+                  var f_size = getComputedStyle(elems[i]).fontSize;
+                  var numb   = f_size.replace(/\D/g,''); // the number
+                  var val    = f_size.replace(/\d/g,''); // px
+                  elems[i].style.fontSize = (+numb * 8 / 10) + val;  
                   
-        //         }
-        //       }
-        //   }
+                }
+              }
+          }
         
-        // if (screen.width < 991) {
-        // var item =    $(".expone ").detach();
-        //   item.appendTo(".mobileappendone");
-        //   }
 
 
       });
@@ -748,6 +734,7 @@
     <!-- grid effect -->
     <script src="js/jquery.mg-space.js"></script>
     <script src="js/app.js"></script>
+
 </body>
 
 </html>
